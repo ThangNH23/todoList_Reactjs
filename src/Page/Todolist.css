@@ -1,0 +1,185 @@
+.container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.interface {
+    z-index: -1;
+}
+
+.header_interface {
+    background-color: rgba(0,0,255,0.5);
+    width: 100%;
+    height: 20rem;
+}
+
+.body_interface {
+    background-color: #f1f2f6;
+    width: 100%;
+    height: 40rem;
+}
+
+
+/* my tasks  */
+
+.myTask_title {
+    text-align: center;
+    padding-top: 5rem;
+    display: flex;
+}
+
+.myTask_title p {
+    padding: 0px 11em;
+    margin-left: -11rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.changeColor button{
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 2em;
+    height: 2em;
+}
+
+.myTask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myTask_title {
+    /* margin-right: 10em; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.my_tasks.completed .name_task {
+    text-decoration: line-through;
+}
+
+.enterNewTask {
+    width: 25em;
+    height: 3rem;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding-left: 50px;
+}
+
+.form_input {
+    position: relative;
+    margin-left: 10rem;
+}
+
+.form_input svg{
+    display: flex;
+    width: 20px;
+    margin: 15px 15px;
+    align-items: center;
+    position: absolute;
+    color: grey;
+    cursor: pointer;
+}
+
+.display_task {
+    display: flex;
+    margin: 10px 5px;
+    justify-content: space-between;
+}
+
+.btn_add {
+    position: absolute;
+    border: none;
+    background-color: #fff;
+    color: grey;
+    border-radius: 10px;
+    right: 0;
+    margin: 0;
+    padding: 15px 16px; 
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+.board_task {
+    background-color: #fff;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    width: 28em;
+    height: 50%;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 1px #fff;
+}
+
+.header_task p {
+    margin: 0px 10px;
+    color: grey;
+}
+
+.btn_clear button {
+    background-color: #fff;
+    color: grey;
+    border: none;
+    cursor: pointer;
+}
+
+.leftItem input {
+    margin-left: 10px;
+}
+
+.line {
+    padding: 0px 12px;
+}
+
+.lineSecond {
+    padding: 0px 8px;
+}
+
+.my_tasks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.my_tasks p {
+    font-size: 18px;
+    margin: 0px 15px;
+    padding: 15px 0px;
+}
+
+.render_allTask {
+    display: flex;
+    flex-direction: column; /* Hiển thị theo chiều dọc */
+}
+
+.task-row, .leftItem {
+    display: flex;
+    align-items: center;
+}
+
+.task-row {
+    justify-content: space-between;
+}
+
+
+.tools {
+    color: grey;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.tools button {
+    cursor: pointer;
+}
